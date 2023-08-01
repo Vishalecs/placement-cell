@@ -33,7 +33,7 @@ app.use(
       maxAge: 1000 * 60 * 100,
     },
     store: MongoStore.create({
-      mongoUrl: 'mongodb+srv://vishalecs:Vishal123321@cluster0.ded7prj.mongodb.net/',
+      mongoUrl: 'mongodb+srv://vishalecs:Vishal123321@cluster0.ded7prj.mongodb.net/cell',
       autoRemoveInterval: 24 * 60 , // Remove expired sessions once a day
     }),
   })
